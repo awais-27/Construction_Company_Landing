@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Rubik:wght@400;600;700;800;900&display=swap');
+/* font-family: 'Open Sans', sans-serif;
+font-family: 'Rubik', sans-serif; */
+body{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+/* Nav bar */
+.navbar-light .navbar-brand{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 23px;
+    color: #000000;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #000000;
+    padding: 20px;
+}
+/* Banner */
+.construction{
+    background-image: url(../images/Group-truck.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: white;
+    height: 100%;
+}
+.construction .cons-text{
+    padding: 88px 80px 40px 88px ;
+}
+.construction .cons-text h1{
+    font-family: 'Rubik', sans-serif; 
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    padding-left: 20px;
+    letter-spacing: 6px;
+    border-left: 6px solid #FFB400;
+}
+.construction .cons-text p{
+    padding: 30px 0;
+    font-family: 'Rubik', sans-serif; 
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 20px;
+    font-size: 22px;
+}
+.construction .cons-text a{
+    margin: 20px 0;
+    padding: 12px 28px;
+    gap: 10px;
+    background: #FFB400;
+    color: #fff;
+}
+.services h3{
+    text-align: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 50px;
+}
+.icon-text img{
+    align-self: flex-start;
+}
+.text-block h4{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 34px;
+}
+.text-block p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    letter-spacing: 0.04em;
+    color: #fff;
+}
+/* Your Project */
+.your-project{
+    padding: 30px;
+}
+.project-text h1{
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 40px;
+line-height: 50px;
+}
+.project-btn a {
+    border: 5px solid #FFB400;
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    padding: 15px 40px;
+    color: #FFB400;
+}
+/* Project */
+.big-project h1{
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px
+}
+.project .row p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    color: #666666;
+    padding: 25px;
+}
+.project .row a{
+    border: 3px solid #1F1F1F;
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    color: #1F1F1F;
+    letter-spacing: 0.1em;
+    margin: 30px 0px 0px 30px;
+    padding: 8px 35px;
+}
+.project .year{
+    position: absolute;
+    right: 12px;
+    bottom: 0;
+    width: 100%;
+}
+.project .year h2{
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 25px;
+    padding-top: 12px;
+}
+.project .year h3{
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 12px;
+    padding-bottom: 12px;
+}
+/* Card */
+.main-card h1{
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    padding-bottom: 50px;
+}
+.main-card .view-btn{
+    padding: 10px 40px;
+    margin: 40px 0;
+    border: 4px solid #1F1F1F;
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+}
+.main-card .card{
+    margin-left: 6rem;
+    border: none;
+}
+.card-body {
+    border: 1px solid #666666;
+    margin-top: 17px;
+}
+.main-card .card .card-body h5{
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.1em;
+}
+.main-card .card .card-body p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 13px;
+    text-align: center;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    color: #666666;
+}
+.main-card .card .card-body a{
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 11px;
+    line-height: 13px;
+    letter-spacing: 0.1em;
+    color: #666666;
+    border: 2px solid #666666;
+    text-align: center;
+}
+/* Building */
+.project .text h2{
+    font-family: 'Rubik';
+    font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 50px;
+color: #FFFFFF;
+}
+.project .text p{
+    font-family: 'Open Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 15px;
+line-height: 27px;
+letter-spacing: 0.04em;
+color: #FFFFFF;
+}
+.project .text a{
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    letter-spacing: 0.1em;
+    border: 4px solid #FFB400;
+    color: #FFB400;
+}
+.project .text a:hover{
+    color: white;
+}
+/* Accordion */
+.accordion .accordion-text h1{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #2A2A2A;
+}
+.accordion .accordion-text p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    color: #666666;
+}
+.accordion .accordion-text a{
+    font-family: 'Rubik';
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+    border: 4px solid #FFB400;
+    padding: 12px 22px;
+}
+.accordion-item h5{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.04em;
+    color: #000000;
+}
+.accordion-item p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    color: #666666;
+}
+.accordion-button::after {
+    flex-shrink: 0;
+    width: 1.25rem;
+    height: 1.25rem;
+    margin-left: auto;
+    content: "";
+    background-image: url(../images/accordion-plus.svg);
+    background-repeat: no-repeat;
+    background-size: 1.25rem;
+    transition: transform .2s ease-in-out;
+}
+.accordion-button:not(.collapsed)::after {
+    background-image: url(../images/accordion-minus.svg);
+}
+/* Footer */
+footer .footer-detail .detail-text label{
+    font-family: 'Rubik';
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 27px;
+    padding-left: 15px;
+    color: #000000;
+}
+footer .form-control{
+    border: none;
+    padding: 10px 15px;
+}
+/* Start Project Page */
+.project-banner{
+    background-image: url(../images/project-banner.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: 569px;
+}
+.project-banner .row{
+    padding: 165.5px 0 352.5px 0;
+}
+.project-banner h1{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    color: #FFFFFF;
+    padding-left: 20px;
+    letter-spacing: 6px;
+    border-left: 6px solid #FFB400;
+}
+.project-banner p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    padding-left: 20px;
+    font-size: 17px;
+    line-height: 32px;
+    color: #FFFFFF;
+}
+.project-page h1{
+    font-family: 'Rubik';
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 50px;
+    color: #000000;
+}
+.project-page p{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    padding-right: 48px;
+    text-align: justify;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    color: #666666;
+}
+.project-page ul li{
+    font-family: 'Open Sans';
+    font-weight: 400;
+    padding: 3px 5px;
+    text-align: justify;
+    font-size: 13px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    color: #666666;
+}
+/* Blog */
+.blog-banner{
+    background-image: url(../images/project-banner.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+}
+.blog-banner .row{
+    padding: 146px 0 140px 0;
+}
+.blog-banner h1{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    color: #FFFFFF;
+    padding-left: 20px;
+    letter-spacing: 6px;
+    border-left: 6px solid #FFB400;
+}
+.blog-card .card,
+.card-body{
+    border: none;
+    height: auto;
+}
+.blog-card .card img{
+    width: 100%;
+    height: auto;
+}
+.blog-card .card .card-body h5{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    color: #666666;
+}
+.blog-card .card .card-body .text-muted{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    color: #C9C9C9;
+}
+.blog-card .card .card-body p{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    letter-spacing: 0.04em;
+    color: #666666;
+}
+/* portfolio */
+.portfolio .card{
+    margin-bottom: 30px;
+}
+.portfolio .card-body{
+    border: 1px solid #000000;
+}
+.portfolio .card-body p{
+    text-align: start !important;
+}
+.footer-header{
+    background: #FFC107;
+    color: #000000;
+    text-align: center;
+    margin: 0;
+}
+.footer-header h1{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 50px;
+    text-align: center;
+    color: #2A2A2A;
+}
